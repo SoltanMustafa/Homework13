@@ -1,0 +1,99 @@
+.loading-page {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgb(30, 19, 81);
+}
+.loading-page .container {
+  width: 100%;
+  height: 50%;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.loading-page .container .loading-text {
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.loading-page .container .loading-text .text {
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: -2px -2px 3px rgba(179, 83, 83, 0.5), 2px 2px 3px rgba(59, 165, 200, 0.5);
+}
+.loading-page .container .loading-text .text .dot {
+  opacity: 0;
+}
+.loading-page .container .loading-itself {
+  width: 35%;
+  height: 10%;
+  border: 2px solid antiquewhite;
+  -webkit-box-shadow: 7px 7px 10px 5px rgb(3, 2, 48), -7px -7px 10px 5px rgb(3, 2, 48), -7px 7px 10px 5px rgb(3, 2, 48), 7px -7px 10px 5px rgb(3, 2, 48);
+          box-shadow: 7px 7px 10px 5px rgb(3, 2, 48), -7px -7px 10px 5px rgb(3, 2, 48), -7px 7px 10px 5px rgb(3, 2, 48), 7px -7px 10px 5px rgb(3, 2, 48);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1px;
+}
+.loading-page .container .loading-itself .loading-square {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: 1px solid beige;
+  background: rgb(4, 103, 78);
+  opacity: 0;
+}
+
+body {
+  background: aqua;
+}
+
+.text-holder {
+  width: 50%;
+  height: 300px;
+  margin: 100px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: bisque;
+}
+.text-holder .text-area {
+  width: 85%;
+  height: 100px;
+  font-size: 30px;
+  padding: 0 15px;
+  border: none;
+  outline: none;
+}/*# sourceMappingURL=style.css.map */
